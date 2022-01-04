@@ -59,3 +59,34 @@
 
   [https://guides.rubyonrails.org/getting_started.html#installing-sqlite3](https://guides.rubyonrails.org/getting_started.html#installing-sqlite3)
 </details>
+
+## Create Project
+Run `rails new --help` to view all command options.
+
+<details>
+  <summary>Stimulus + Postgres + Bootstrap + Esbuild</summary>
+
+  ```
+rails new APP_NAME -s --git --database=postgresql --css=bootstrap --javascript=esbuild
+  ```
+</details>
+
+-or-
+
+<details>
+  <summary>Stimulus + Postgres + Bootstrap + Webpack</summary>
+
+  ```
+rails new APP_NAME -s --git --database=postgresql --css=tailwind --javascript=webpack
+  ```
+</details>
+
+-or-
+
+<details>
+  <summary>Stimulus + Postgres + Bootstrap + Rollup</summary>
+
+  ```
+rails new APP_NAME -s --git --database=postgresql --css=tailwind --javascript=rollup
+  ```
+</details>
