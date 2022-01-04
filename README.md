@@ -90,3 +90,10 @@ rails new APP_NAME -s --git --database=postgresql --css=tailwind --javascript=we
 rails new APP_NAME -s --git --database=postgresql --css=tailwind --javascript=rollup
   ```
 </details>
+
+## Migrate Database
+
+```
+rails db:create
+rails db:migrate
+```
