@@ -43,3 +43,19 @@
   rails -v
   ```
 </details>
+
+## Install Database
+<details>
+  <summary>Install Postgres</summary>
+
+  [https://www.postgresql.org/download/macosx/](https://www.postgresql.org/download/macosx/)
+  ```
+  psql --version
+  ```
+</details>
+-or-
+<details>
+  <summary>Install SQLite3</summary>
+
+  [https://guides.rubyonrails.org/getting_started.html#installing-sqlite3](https://guides.rubyonrails.org/getting_started.html#installing-sqlite3)
+</details>
