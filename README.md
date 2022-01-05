@@ -67,7 +67,7 @@ Run `rails new --help` to view all command options.
   <summary>Stimulus + Postgres + Bootstrap + Esbuild</summary>
 
   ```
-rails new APP_NAME -s --git --database=postgresql --css=bootstrap --javascript=esbuild
+rails new . -s --git --database=postgresql --css=bootstrap --javascript=esbuild
   ```
 </details>
 
@@ -77,7 +77,7 @@ rails new APP_NAME -s --git --database=postgresql --css=bootstrap --javascript=e
   <summary>Stimulus + Postgres + Bootstrap + Webpack</summary>
 
   ```
-rails new APP_NAME -s --git --database=postgresql --css=tailwind --javascript=webpack
+rails new . -s --git --database=postgresql --css=tailwind --javascript=webpack
   ```
 </details>
 
@@ -87,7 +87,7 @@ rails new APP_NAME -s --git --database=postgresql --css=tailwind --javascript=we
   <summary>Stimulus + Postgres + Bootstrap + Rollup</summary>
 
   ```
-rails new APP_NAME -s --git --database=postgresql --css=tailwind --javascript=rollup
+rails new . -s --git --database=postgresql --css=tailwind --javascript=rollup
   ```
 </details>
 
@@ -97,3 +97,30 @@ rails new APP_NAME -s --git --database=postgresql --css=tailwind --javascript=ro
 rails db:create
 rails db:migrate
 ```
+
+## User Authentication
+
+<details>
+  <summary>Setup Devise</summary>
+
+  [Devise](https://github.com/heartcombo/devise) is flexible authentication solution for Rails with Warden.
+
+```
+rails app:template LOCATION="https://railsbytes.com/script/X8Bsjx"
+```
+Installation Questions:
+- What do you want to call your Devise model? `User`
+- Do you want to any extra attributes to User? `y`
+- What attributes? `name`
+
+Post Installation Steps:
+1. In `config/environments/development.rb`, add `config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }`
+2. Copy Devise views
+```
+rails g devise:views
+```
+3. Migrate Database:
+```
+rails db:migrate
+```
+</details>
