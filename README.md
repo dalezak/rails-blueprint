@@ -172,7 +172,7 @@ rails db:migrate
   - [GoRails Tutorial](https://gorails.com/episodes/soft-delete-with-paranoia)
 </details>
 
-_ -or- _
+_-or-_
 
 <details>
   <summary>Setup Discard</summary>
