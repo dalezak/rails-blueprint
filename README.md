@@ -156,6 +156,33 @@ rails db:migrate
   - [GoRails Tutorial](https://gorails.com/episodes/authorization-with-cancancan)
 </details>
 
+## Single Sign On
+
+<details>
+  <summary>Setup Omniauth</summary>
+
+  [Omniauth](https://github.com/omniauth/omniauth) is a flexible authentication system utilizing Rack middleware. 
+
+  ```console
+  rails app:template LOCATION='https://railsbytes.com/script/xkjsK3'
+  ```
+
+  Post Installation Steps:
+  1. Add Omniauth routes to  `config/routes.rb`
+  ```console
+  devise_for :users,
+    controllers: {
+      sessions: "sessions",
+      registrations: "registrations",
+      omniauth_callbacks: "omniauth",
+    }
+  ```
+
+  Learning More:
+  - [Getting Started](https://github.com/omniauth/omniauth/wiki#getting-started)
+  - [GoRails Tutorial](https://gorails.com/episodes/omniauth-twitter-sign-in)
+</details>
+
 ## Soft Deletes
 <details>
   <summary>Setup Paranoia</summary>
