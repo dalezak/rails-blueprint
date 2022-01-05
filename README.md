@@ -111,16 +111,38 @@ rails app:template LOCATION="https://railsbytes.com/script/X8Bsjx"
 Installation Questions:
 - What do you want to call your Devise model? `User`
 - Do you want to any extra attributes to User? `y`
-- What attributes? `name`
+- What attributes? `name` _# use comma separated list of attributes_
 
 Post Installation Steps:
 1. In `config/environments/development.rb`, add `config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }`
-2. Copy Devise views
-```console
-rails g devise:views
-```
-3. Migrate Database:
+2. Migrate Database:
 ```console
 rails db:migrate
 ```
+
+Learning More:
+- [Configuring Models](https://github.com/heartcombo/devise#configuring-models)
+- [Configuring Views](https://github.com/heartcombo/devise#configuring-views)
+- [Controller Filters](https://github.com/heartcombo/devise#controller-filters-and-helpers)
+- [Configuring Routes](https://github.com/heartcombo/devise#configuring-routes)
+- [GoRails Tutorial](https://gorails.com/episodes/user-authentication-with-devise)
+</details>
+
+## User Authorization
+
+<details>
+  <summary>Setup CanCanCan</summary>
+  
+  [CanCanCan](https://github.com/CanCanCommunity/cancancan) is authorization Gem for Ruby on Rails.
+
+  ```console
+rails app:template LOCATION='https://railsbytes.com/script/V33sj3'
+  ```
+
+  Learning More:
+  - [Defining Abilities](https://github.com/CanCanCommunity/cancancan#define-abilities)
+  - [Checking Abilities](https://github.com/CanCanCommunity/cancancan#check-abilities)
+  - [Controller Helpers](https://github.com/CanCanCommunity/cancancan#controller-helpers)
+  - [Developer Guide](https://github.com/CanCanCommunity/cancancan/blob/develop/docs/README.md)
+  - [GoRails Tutorial](https://gorails.com/episodes/authorization-with-cancancan)
 </details>
