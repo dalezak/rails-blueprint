@@ -120,7 +120,7 @@ Post Installation Steps:
 rails g devise:views
 ```
 3. Migrate Database:
-```posh
+```properties
 rails db:migrate
 ```
 </details>
