@@ -155,3 +155,37 @@ rails db:migrate
   - [Developer Guide](https://github.com/CanCanCommunity/cancancan/blob/develop/docs/README.md)
   - [GoRails Tutorial](https://gorails.com/episodes/authorization-with-cancancan)
 </details>
+
+## Soft Deletes
+<details>
+  <summary>Setup Paranoia</summary>
+
+  [Paranoia](https://github.com/rubysherpas/paranoia) provides soft deletes functionality to ActiveRecord.
+
+  ```console
+  rails app:template LOCATION='https://railsbytes.com/script/Xg8s3J'
+  ```
+
+  Learning More:
+  - [Migrate Models](https://github.com/rubysherpas/paranoia#run-your-migrations-for-the-desired-models)
+  - [Model Usage](https://github.com/rubysherpas/paranoia#usage)
+  - [GoRails Tutorial](https://gorails.com/episodes/soft-delete-with-paranoia)
+</details>
+
+_ -or- _
+
+<details>
+  <summary>Setup Discard</summary>
+
+  [Discard](https://github.com/jhawthorn/discard), soft deletes for ActiveRecord done right.
+
+  ```console
+  rails app:template LOCATION='https://railsbytes.com/templates/z0gsEQ'
+  ```
+
+  Learning More:
+  - [Migrate Models](https://github.com/jhawthorn/discard#usage)
+  - [Discard Record](https://github.com/jhawthorn/discard#discard-a-record)
+  - [Undiscard Record](https://github.com/jhawthorn/discard#undiscard-a-record)
+  - [Default Scopes](https://github.com/jhawthorn/discard#default-scope)
+</details>
