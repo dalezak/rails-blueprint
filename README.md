@@ -216,3 +216,15 @@ _-or-_
   - [Undiscard Record](https://github.com/jhawthorn/discard#undiscard-a-record)
   - [Default Scopes](https://github.com/jhawthorn/discard#default-scope)
 </details>
+
+## Image Uploads
+
+<details>
+  <summary>Setup Shrine</summary>
+
+  [Shrine](https://github.com/shrinerb/shrine) is a modular file upload toolkit that allows direct uploads to S3, resumable uploads, image processing and more.
+
+  ```console
+  rails app:template LOCATION='https://railsbytes.com/script/xYasLK'
+  ```
+</details>
