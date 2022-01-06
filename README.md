@@ -243,12 +243,25 @@ _-or-_
 </details>
 
 ## Image Uploads
-Add file uploads instead of using the ActiveStorage functionality/
+Add file upload functionality to a cloud storage services.
+
+<details>
+  <summary>Setup ActiveStorage</summary>
+
+  [ActiveStorage](https://edgeguides.rubyonrails.org/active_storage_overview.html) facilitates uploading files to a cloud storage service like Amazon S3, Google Cloud Storage, or Microsoft Azure.
+
+  [This template](https://railsbytes.com/templates/zJosLx) adds ActiveStorage to your Rails app.
+  ```console
+  rails app:template LOCATION='https://railsbytes.com/script/zJosLx'
+  ```
+</details>
+
+_-or-_
 
 <details>
   <summary>Setup Shrine</summary>
 
-  [Shrine](https://github.com/shrinerb/shrine) is a modular file upload toolkit that allows direct uploads to S3, resumable uploads, image processing and more.
+  [Shrine](https://github.com/shrinerb/shrine) is a modular file upload toolkit that allows direct uploads to Amazon S3, resumable uploads, image processing and more.
 
   [This template](https://railsbytes.com/templates/xYasLK) installs Shrine gem, config initializer, plus adds some handy uploaders you can use.
   ```console
