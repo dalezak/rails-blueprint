@@ -1,7 +1,19 @@
 # Rails Blueprint
 > A starter blueprint for fast tracking Rails development
 
+## Getting Started
+The purpose of this blueprint, is to provide a reusable outline to help fast track setting up a new Rails project.
+
+To get started, simply clone this repo into folder with the name of your application. 
+
+```clone
+git clone https://github.com/dalezak/rails-blueprint.git APP_NAME
+```
+
+Then move through the list below doing any of the sections your application needs. If you already have Rails setup, then you can skip `Setup Environment` section, or if you don't want `Soft Deletes` just skip past it.
+
 ## Setup Environment
+Setup your local environment with Ruby, Rails and Node.
 <details>
   <summary>Install Ruby</summary>
 
@@ -51,6 +63,7 @@
 </details>
 
 ## Install Database
+Install a local database.
 <details>
   <summary>Install Postgres</summary>
 
@@ -107,6 +120,7 @@ _-or-_
 After creating your Rails project, you'll need to run `rails db:create` to create the local database.
 
 ## User Authentication
+Setup authentication so that users can login to your application.
 
 <details>
   <summary>Setup Devise</summary>
@@ -138,6 +152,7 @@ After creating your Rails project, you'll need to run `rails db:create` to creat
 </details>
 
 ## User Authorization
+Setup authorization so you can protect resources based on user roles.
 
 <details>
   <summary>Setup CanCanCan</summary>
@@ -158,6 +173,7 @@ After creating your Rails project, you'll need to run `rails db:create` to creat
 </details>
 
 ## Single Sign On
+Allows users the ability to login to your application through other services like Google.
 
 <details>
   <summary>Setup Omniauth</summary>
@@ -186,6 +202,8 @@ After creating your Rails project, you'll need to run `rails db:create` to creat
 </details>
 
 ## Soft Deletes
+Provide soft delete functionality so you have ability to un-delete records.
+
 <details>
   <summary>Setup Paranoia</summary>
 
@@ -222,6 +240,7 @@ _-or-_
 </details>
 
 ## Image Uploads
+Add file uploads instead of using the ActiveStorage functionality/
 
 <details>
   <summary>Setup Shrine</summary>
@@ -235,6 +254,7 @@ _-or-_
 </details>
 
 ## Project Configuration
+Some handy project configurations to make your life simpler.
 
 <details>
   <summary>Setup Figaro</summary>
