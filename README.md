@@ -1,21 +1,26 @@
 # Rails Blueprint
-A starter blueprint to provide a reusable outline to help fast track setting up a new Rails project.
+A starter blueprint to help fast track setting up a new Rails application.
 
 ## Getting Started
-To get started, simply clone this repo into folder with the name of your application. 
+To get started, simply clone this repo into a folder with the name of your application. 
 
-```clone
-git clone https://github.com/dalezak/rails-blueprint.git APP_NAME
-```
+<details>
+  <summary>Clone Repo</summary>
 
-Then move through the list below doing any of the sections your application needs. If you already have Rails setup, then you can skip `Setup Environment` section, or if you don't want `Soft Deletes` just skip past it.
+  Replace `my_app` with the name of your application.
+  ```clone
+  git clone https://github.com/dalezak/rails-blueprint.git my_app
+  ```
+</details>
+
+Then move through the list below doing any of the sections your application needs. If you already have Rails setup, then skip the `Setup Environment` section, or if you don't want `Soft Deletes` just move past it.
 
 ## Setup Environment
 Setup your local environment with Ruby, Rails and Node.
 <details>
   <summary>Install Ruby</summary>
 
-  [https://guides.rubyonrails.org/getting_started.html#installing-ruby](https://guides.rubyonrails.org/getting_started.html#installing-ruby)
+  Visit [Rails > Getting Started > Installing Ruby](https://guides.rubyonrails.org/getting_started.html#installing-ruby) for instructions on installing the Ruby language.
 
   ```console
   ruby -v 
@@ -25,7 +30,7 @@ Setup your local environment with Ruby, Rails and Node.
 <details>
   <summary>Install RVM</summary>
 
-  [https://rvm.io/rvm/install](https://rvm.io/rvm/install)
+  Visit [RVM > Install](https://rvm.io/rvm/install) for instructions on setting up RVM so you can easily switch between different version of Ruby.
 
   ```console
   rvm --default use 3.0.0 
@@ -35,7 +40,7 @@ Setup your local environment with Ruby, Rails and Node.
 <details>
   <summary>Install Node</summary>
 
-  [https://guides.rubyonrails.org/getting_started.html#installing-node-js-and-yarn](https://guides.rubyonrails.org/getting_started.html#installing-node-js-and-yarn)
+  Visit [Rails > Getting Started > Installing Node](https://guides.rubyonrails.org/getting_started.html#installing-node-js-and-yarn) for instructions on setting up Node and Yarn.
 
   ```console
   npm -v
@@ -49,7 +54,7 @@ Setup your local environment with Ruby, Rails and Node.
 <details>
   <summary>Install Rails</summary>
 
-  [https://guides.rubyonrails.org/getting_started.html#creating-a-new-rails-project-installing-rails-installing-rails]
+  Visit [Rails > Getting Started](https://guides.rubyonrails.org/getting_started.html#creating-a-new-rails-project-installing-rails-installing-rails) for instructions on installing Rails framework.
 
   ```console
   gem install rails -v 7.0.0
@@ -65,7 +70,7 @@ Install a local database.
 <details>
   <summary>Install Postgres</summary>
 
-  [https://www.postgresql.org/download/macosx/](https://www.postgresql.org/download/macosx/)
+  Visit [Postgres > Download](https://www.postgresql.org/download/macosx/) for instructions on installing Postgres database.
 
   ```console
   psql --version
@@ -77,7 +82,7 @@ _-or-_
 <details>
   <summary>Install SQLite3</summary>
 
-  [https://guides.rubyonrails.org/getting_started.html#installing-sqlite3](https://guides.rubyonrails.org/getting_started.html#installing-sqlite3)
+  Visit [Rails > Getting_started > Installing SQLite](https://guides.rubyonrails.org/getting_started.html#installing-sqlite3) for instructions on installing SQlite database.
 </details>
 
 ## Create Project
@@ -309,3 +314,31 @@ Some handy project configurations to make your life simpler.
   ```
 </details>
 
+<details>
+  <summary>GitHub Issue Templates</summary>
+
+  Creates bug reports, feature requests and code maintenance issue templates in GitHub.
+
+  [This template](https://railsbytes.com/public/templates/XvEs4K) adds some handy GitHub issue templates.
+  ```console
+  rails app:template LOCATION='https://railsbytes.com/script/XvEs4K'
+  ```
+</details>
+
+<details>
+  <summary>GitHub Pull Request Template</summary>
+
+  Creates a pull request template for GitHub.
+
+  [This template](https://railsbytes.com/public/templates/VdrsPl) add a GitHub pull request template.
+  ```console
+  rails app:template LOCATION='https://railsbytes.com/script/VdrsPl'
+  ```
+</details>
+
+## Other Templates
+Visit [railsbytes.com](https://railsbytes.com/public/templates) for other handy templates to help setup your environment.
+
+## Rails Tutorials
+
+If you are looking for Rails tutorials, I'd highly recommend you checkout [gorails.com](https://gorails.com) and [driftingruby.com](https://www.driftingruby.com), both great resources for learning Rails.
