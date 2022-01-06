@@ -73,8 +73,9 @@ _-or-_
 Run `rails new --help` to view all command options.
 
 <details>
-  <summary>Stimulus + Postgres + Bootstrap + Esbuild</summary>
+  <summary>Postgres + Bootstrap + Esbuild</summary>
 
+  Creates a new Rails project with Postgres database, Bootstrap css and ESbuild javascript.
   ```console
   rails new . -s --git --database=postgresql --css=bootstrap --javascript=esbuild
   ```
@@ -83,29 +84,27 @@ Run `rails new --help` to view all command options.
 _-or-_
 
 <details>
-  <summary>Stimulus + Postgres + Bootstrap + Webpack</summary>
+  <summary>Postgres + Bootstrap + Webpack</summary>
 
+  Creates a new Rails project with Postgres database, Bootstrap css and Webpack javascript.
   ```console
-  rails new . -s --git --database=postgresql --css=tailwind --javascript=webpack
+  rails new . -s --git --database=postgresql --css=bootstrap --javascript=webpack
   ```
 </details>
 
 _-or-_
 
 <details>
-  <summary>Stimulus + Postgres + Bootstrap + Rollup</summary>
+  <summary>Postgres + Bootstrap + Rollup</summary>
 
+  Creates a new Rails project with Postgres database, Bootstrap css and Rollup javascript.
   ```console
   rails new . -s --git --database=postgresql --css=tailwind --javascript=rollup
   ```
 </details>
 
 ## Migrate Database
-
-```console
-rails db:create
-rails db:migrate
-```
+After creating your Rails project, you'll need to run `rails db:create` to create the local database.
 
 ## User Authentication
 
@@ -114,6 +113,7 @@ rails db:migrate
 
   [Devise](https://github.com/heartcombo/devise) is flexible authentication solution for Rails with Warden.
 
+  [This template](https://railsbytes.com/templates/X8Bsjx) adds user authentication to your app using the Devise gem. 
   ```console
     rails app:template LOCATION="https://railsbytes.com/script/X8Bsjx"
   ```
@@ -144,6 +144,7 @@ rails db:migrate
 
   [CanCanCan](https://github.com/CanCanCommunity/cancancan) is authorization Gem for Ruby on Rails.
 
+  [This template](https://railsbytes.com/templates/V33sj3) add CanCanCan gem and generates default abilities file. 
   ```console
   rails app:template LOCATION='https://railsbytes.com/script/V33sj3'
   ```
@@ -163,6 +164,7 @@ rails db:migrate
 
   [Omniauth](https://github.com/omniauth/omniauth) is a flexible authentication system utilizing Rack middleware. 
 
+  [This template](https://railsbytes.com/templates/xkjsK3) adds Omniauth gem, creates sessions, registrations and omniauth controllers
   ```console
   rails app:template LOCATION='https://railsbytes.com/script/xkjsK3'
   ```
@@ -189,6 +191,7 @@ rails db:migrate
 
   [Paranoia](https://github.com/rubysherpas/paranoia) provides soft deletes functionality to ActiveRecord.
 
+  [This template](https://railsbytes.com/templates/Xg8s3J) installs the Paranoia gem for soft deletes.
   ```console
   rails app:template LOCATION='https://railsbytes.com/script/Xg8s3J'
   ```
@@ -206,6 +209,7 @@ _-or-_
 
   [Discard](https://github.com/jhawthorn/discard), soft deletes for ActiveRecord done right.
 
+  [This template](https://railsbytes.com/templates/z0gsEQ) installs the Discard gem for soft deletes.
   ```console
   rails app:template LOCATION='https://railsbytes.com/templates/z0gsEQ'
   ```
@@ -224,7 +228,66 @@ _-or-_
 
   [Shrine](https://github.com/shrinerb/shrine) is a modular file upload toolkit that allows direct uploads to S3, resumable uploads, image processing and more.
 
+  [This template](https://railsbytes.com/templates/xYasLK) installs Shrine gem, config initializer, plus adds some handy uploaders you can use.
   ```console
   rails app:template LOCATION='https://railsbytes.com/script/xYasLK'
   ```
 </details>
+
+## Project Configuration
+
+<details>
+  <summary>Setup Figaro</summary>
+
+  [Figaro](https://github.com/laserlemon/figaro) is simple Heroku-friendly configuration using ENV and a single YAML file.
+
+  [This template](https://railsbytes.com/templates/VRZs9V) adds Figaro for simple configuration using ENV and a single YAML file.
+  ```console
+  rails app:template LOCATION="https://railsbytes.com/script/VRZs9V"
+  ```
+</details>
+
+<details>
+  <summary>Setup Rubocop</summary>
+
+  [Rubocop](https://github.com/rubocop/rubocop-rails) is an extension focused on enforcing Rails best practices and coding conventions.
+
+  [This template](https://railsbytes.com/templates/XE5sl5) adds rubocop to your Rails app.
+  ```console
+  rails app:template LOCATION="https://railsbytes.com/script/XE5sl5"
+  ```
+</details>
+
+<details>
+  <summary>Setup Better Errors</summary>
+
+  [Foreman](https://github.com/BetterErrors/better_errors) is better error page for Rack apps.
+
+  [This template](https://railsbytes.com/templates/V33s0D) adds Better Errors and Binding of Caller gems.
+  ```console
+  rails app:template LOCATION="https://railsbytes.com/script/V33s0D"
+  ```
+</details>
+
+<details>
+  <summary>Improve Seeds Folder</summary>
+
+  Organize your seeds files into environment folders and execute them in alphanumeric order.
+
+  [This template](https://railsbytes.com/templates/xGqsmL) sets up environment specific seeds folders.
+  ```console
+  rails app:template LOCATION='https://railsbytes.com/script/xGqsmL'
+  ```
+</details>
+
+<details>
+  <summary>Clear Development Logs</summary>
+
+  Automatically clear development logs when they get over 2mb.
+
+  [This template](https://railsbytes.com/templates/VZgs77) adds an initializer to clear development logs.
+  ```console
+  rails app:template LOCATION='https://railsbytes.com/script/VZgs77'
+  ```
+</details>
+
