@@ -1,9 +1,7 @@
 # Rails Blueprint
-> A starter blueprint for fast tracking Rails development
+A starter blueprint to provide a reusable outline to help fast track setting up a new Rails project.
 
 ## Getting Started
-The purpose of this blueprint, is to provide a reusable outline to help fast track setting up a new Rails project.
-
 To get started, simply clone this repo into folder with the name of your application. 
 
 ```clone
