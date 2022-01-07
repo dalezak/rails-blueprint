@@ -100,6 +100,17 @@ Run `rails new --help` to view all command options.
 _-or-_
 
 <details>
+  <summary>Postgres + Tailwind + Esbuild</summary>
+
+  Creates a new Rails project with Postgres database, Tailwind css and ESbuild javascript.
+  ```console
+  rails new . -s --git --database=postgresql --css=tailwind --javascript=esbuild
+  ```
+</details>
+
+_-or-_
+
+<details>
   <summary>Postgres + Bootstrap + Webpack</summary>
 
   Creates a new Rails project with Postgres database, Bootstrap css and Webpack javascript.
@@ -111,9 +122,31 @@ _-or-_
 _-or-_
 
 <details>
+  <summary>Postgres + Tailwind + Webpack</summary>
+
+  Creates a new Rails project with Postgres database, Tailwind css and Webpack javascript.
+  ```console
+  rails new . -s --git --database=postgresql --css=tailwind --javascript=webpack
+  ```
+</details>
+
+_-or-_
+
+<details>
   <summary>Postgres + Bootstrap + Rollup</summary>
 
   Creates a new Rails project with Postgres database, Bootstrap css and Rollup javascript.
+  ```console
+  rails new . -s --git --database=postgresql --css=bootstrap --javascript=rollup
+  ```
+</details>
+
+_-or-_
+
+<details>
+  <summary>Postgres + Tailwind + Rollup</summary>
+
+  Creates a new Rails project with Postgres database, Tailwind css and Rollup javascript.
   ```console
   rails new . -s --git --database=postgresql --css=tailwind --javascript=rollup
   ```
