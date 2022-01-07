@@ -345,6 +345,17 @@ _-or-_
 Some handy project configurations to make your life simpler.
 
 <details>
+  <summary>Setup Bullet</summary>
+
+  [Bullet](https://github.com/flyerhzm/bullet) helps kill N+1 queries and unused eager loading.
+
+  [This template](https://railsbytes.com/templates/XLEsaW) adds gem and initializer.
+  ```console
+  rails app:template LOCATION="https://railsbytes.com/script/XLEsaW"
+  ```
+</details>
+
+<details>
   <summary>Setup Figaro</summary>
 
   [Figaro](https://github.com/laserlemon/figaro) is simple Heroku-friendly configuration using ENV and a single YAML file.
