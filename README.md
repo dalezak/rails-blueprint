@@ -302,6 +302,19 @@ _-or-_
   ```
 </details>
 
+## App Analytics
+
+<details>
+  <summary>Setup Ahoy</summary>
+
+  [Ahoy](https://github.com/ankane/ahoy) is simple, powerful, first-party analytics for Rails.
+
+  [This template](https://railsbytes.com/templates/V1bs4X) adds Ahoy gem, runs its initializer and then migrates the database.
+  ```console
+  rails app:template LOCATION='https://railsbytes.com/script/V1bs4X'
+  ```
+</details>
+
 ## Project Configuration
 Some handy project configurations to make your life simpler.
 
