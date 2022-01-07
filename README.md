@@ -382,6 +382,54 @@ Some handy project configurations to make your life simpler.
   ```
 </details>
 
+## Git Aliases
+Some [handy git aliases](https://dev.to/dalezak/git-aliases-are-like-superpowers-3bp4) I like to use to save time.
+
+<details>
+  <summary>Git Add Commit Push</summary>
+
+  This alias does a git add, commit and push all on one line. 
+
+  ```console
+  git config --global alias.add-commit-push '!git add -A && git commit -m "$1" && git push && git status'
+  ```
+
+  You can use the `add-commit-push` alias like this.
+  ```console
+  git add-commit-push "Add, commit, push in one line!"
+  ```
+</details>
+
+<details>
+  <summary>Git New Branch</summary>
+
+  This alias adds, commits and pushes current changes to a new branch.
+
+  ```console
+  git config --global alias.new-branch '!git checkout -b "$1" && git add -A && git commit -m "$2" && git push -u origin "$1" && git status'
+  ```
+
+  You can use the `new-branch` alias like this.
+  ```console
+  git new-branch "123-my-branch" "Checkout, add, commit, push!"
+  ```
+</details>
+
+<details>
+  <summary>Git New Tag</summary>
+
+  This alias creates a new tag and pushes it using the timestamp for naming.
+
+  ```console
+  git config --global alias.new-tag '!git tag -a -m `date +'%Y-%m-%d_%H-%M'` `date +'%Y-%m-%d_%H-%M'` && git push origin `date +'%Y-%m-%d_%H-%M'` && git status'
+  ```
+
+  You can use the `new-tag` alias like this.
+  ```console
+  git new-tag
+  ```
+</details>
+
 ## Other Templates
 Visit [railsbytes.com](https://railsbytes.com/public/templates) for other handy templates to help setup your environment.
 
