@@ -328,6 +328,19 @@ _-or-_
   ```
 </details>
 
+## Accept Payments
+
+<details>
+  <summary>Setup Pay</summary>
+
+  [Pay](https://github.com/pay-rails/pay) add payments using Stripe or Braintree to your application.
+
+  [This template](https://railsbytes.com/templates/zPdsZn) adds gem and runs generators.
+  ```console
+  rails app:template LOCATION='https://railsbytes.com/script/zPdsZn'
+  ```
+</details>
+
 ## Project Configuration
 Some handy project configurations to make your life simpler.
 
