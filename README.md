@@ -208,6 +208,19 @@ Setup authorization so you can protect resources based on user roles.
   - [GoRails Tutorial](https://gorails.com/episodes/authorization-with-cancancan)
 </details>
 
+_-or-_
+
+<details>
+  <summary>Setup Pundit</summary>
+
+  [Pundit](https://github.com/varvet/pundit) provides a set of helpers which guide you in leveraging regular Ruby classes and object oriented design patterns to build a simple, robust and scalable authorization system.
+
+  [This template](https://railsbytes.com/templates/X6ks6o) installs the Pundit gem, and runs the generator.
+  ```console
+  rails app:template LOCATION='https://railsbytes.com/script/X6ks6o'
+  ```
+</details>
+
 ## Single Sign On
 Allows users the ability to login to your application through other services like Google.
 
