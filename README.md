@@ -430,8 +430,75 @@ Some [handy git aliases](https://dev.to/dalezak/git-aliases-are-like-superpowers
   ```
 </details>
 
-## Other Templates
-Visit [railsbytes.com](https://railsbytes.com/public/templates) for other handy templates to help setup your environment.
+## VS Code Extensions
+Some handy extensions for [Visual Studio Code](https://code.visualstudio.com).
+
+<details>
+  <summary>Rails</summary>
+
+  Ruby on Rails support for Visual Studio Code
+
+  [https://marketplace.visualstudio.com/items?itemName=bung87.rails](https://marketplace.visualstudio.com/items?itemName=bung87.rails)
+</details>
+
+<details>
+  <summary>Ruby</summary>
+
+  This extension provides enhanced Ruby language and debugging support for Visual Studio Code
+
+  [https://marketplace.visualstudio.com/items?itemName=rebornix.Ruby](https://marketplace.visualstudio.com/items?itemName=rebornix.Ruby)
+</details>
+
+<details>
+  <summary>Ruby Language Colorization</summary>
+
+  Ruby Language Colorization for Visual Studio Code
+
+  [https://marketplace.visualstudio.com/items?itemName=groksrc.ruby](https://marketplace.visualstudio.com/items?itemName=groksrc.ruby)
+</details>
+
+<details>
+  <summary>Ruby on Rails</summary>
+
+  This extension for Visual Studio Code adds snippets for Ruby on rails.
+
+  [https://marketplace.visualstudio.com/items?itemName=hridoy.rails-snippets](https://marketplace.visualstudio.com/items?itemName=hridoy.rails-snippets)
+</details>
+
+<details>
+  <summary>Ruby Solargraph</summary>
+
+  Solargraph is a language server that provides intellisense, code completion, and inline documentation for Ruby.
+
+  [https://marketplace.visualstudio.com/items?itemName=castwide.solargraph](https://marketplace.visualstudio.com/items?itemName=castwide.solargraph)
+</details>
+
+<details>
+  <summary>Simple Ruby ERB</summary>
+
+  This extensions tries to provide simple Ruby and ERB support to Visual Studio Code without messing with linting or debugging.
+
+  [https://marketplace.visualstudio.com/items?itemName=vortizhe.simple-ruby-erb](https://marketplace.visualstudio.com/items?itemName=vortizhe.simple-ruby-erb)
+</details>
+
+<details>
+  <summary>VSCode Ruby</summary>
+
+  This extension provides improved syntax highlighting, language configuration, and snippets to Ruby and ERB files within Visual Studio Code.
+
+  [https://marketplace.visualstudio.com/items?itemName=wingrunr21.vscode-ruby](https://marketplace.visualstudio.com/items?itemName=wingrunr21.vscode-ruby)
+</details>
+
+<details>
+  <summary>Ruby Rubocop</summary>
+
+  This extension provides interfaces to rubocop for vscode.
+
+  [https://marketplace.visualstudio.com/items?itemName=misogi.ruby-rubocop](https://marketplace.visualstudio.com/items?itemName=misogi.ruby-rubocop)
+</details>
+
+## Rails Templates
+Visit [railsbytes.com](https://railsbytes.com/public/templates) for other handy templates to help setup your project.
 
 ## Rails Tutorials
 
