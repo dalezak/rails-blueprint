@@ -354,6 +354,17 @@ Some handy project configurations to make your life simpler.
 </details>
 
 <details>
+  <summary>Annotate Models</summary>
+
+  [Annotate](https://github.com/ctran/annotate_models) provides classes with schema and routes info.
+
+  [This template](https://railsbytes.com/templates/Vqqsqg) installs gem, and runs annotations.
+  ```console
+  rails app:template LOCATION='https://railsbytes.com/script/Vqqsqg'
+  ```
+</details>
+
+<details>
   <summary>Setup Better Errors</summary>
 
   [Foreman](https://github.com/BetterErrors/better_errors) is better error page for Rack apps.
