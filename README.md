@@ -1,5 +1,5 @@
 # Rails Blueprint
-A starter blueprint to help fast track setting up a new Rails application.
+A [starter blueprint](https://dev.to/dalezak/a-starter-blueprint-to-help-fast-track-a-new-rails-applications-4671) to help fast track setting up a new Rails application.
 
 ## Getting Started
 To get started, simply clone this repo into a folder with the name of your application. 
