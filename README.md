@@ -13,6 +13,14 @@ To get started, simply clone this repo into a folder with the name of your appli
   ```
 </details>
 
+_-or-_
+
+<details>
+  <summary>Download Repo</summary>
+
+  Download and extract [https://github.com/dalezak/rails-blueprint/archive/refs/heads/main.zip](https://github.com/dalezak/rails-blueprint/archive/refs/heads/main.zip) into folder with the name of your application.
+</details>
+
 Then move through the list below doing any of the sections your application needs. If you already have Rails setup, then skip the `Setup Environment` section, or if you don't want `Soft Deletes` just move past it.
 
 ## Setup Environment
