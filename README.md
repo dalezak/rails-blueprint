@@ -346,11 +346,24 @@ _-or-_
 <details>
   <summary>Setup Sentry</summary>
 
-  [Sentry](https://sentry.io) is error tracking to performance monitoring, developers can see what actually matters, solve quicker, and learn continuously about their applications - from the frontend to the backend..
+  [Sentry](https://sentry.io) is error tracking to performance monitoring, developers can see what actually matters, solve quicker, and learn continuously about their applications - from the frontend to the backend.
 
   [This template](https://railsbytes.com/templates/zOvsol) adds gem, initializer and application controller code.
   ```console
   rails app:template LOCATION='https://railsbytes.com/script/zOvsol'
+  ```
+</details>
+
+_-or-_
+
+<details>
+  <summary>Setup HoneyBadger</summary>
+
+  [HoneyBadger](https://www.honeybadger.io/for/rails/) lets you track and debug exceptions in record time. 
+
+  [This template](https://railsbytes.com/templates/zNPsmV) adds gem, sets api key runs initializer.
+  ```console
+  rails app:template LOCATION='https://railsbytes.com/script/zNPsmV'
   ```
 </details>
 
