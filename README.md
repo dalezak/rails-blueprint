@@ -155,6 +155,19 @@ _-or-_
 ## Migrate Database
 After creating your Rails project, you'll need to run `rails db:create` to create the local database.
 
+## UUID Keys
+
+<details>
+  <summary>Enable UUIDs</summary>
+
+  Use UUIDs as the default primary key for your models.
+
+  [This template](https://railsbytes.com/public/templates/V4Ys1d) enables pgcrypto for UUIDs.
+  ```console
+  rails app:template LOCATION='https://railsbytes.com/script/V4Ys1d'
+  ```
+</details>
+
 ## User Authentication
 Setup authentication so that users can login to your application.
 
