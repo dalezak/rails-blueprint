@@ -170,7 +170,7 @@ Setup authentication so that users can login to your application.
   Installation Questions:
   - What do you want to call your Devise model? `User`
   - Do you want to any extra attributes to User? `y`
-  - What attributes? `name` _# use comma separated list of attributes_
+  - What attributes? `name` _# use space separated list of attributes_
 
   Post Installation Steps:
   1. In `config/environments/development.rb`, add `config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }`
