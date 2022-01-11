@@ -2,7 +2,7 @@
 A [starter blueprint](https://dev.to/dalezak/a-starter-blueprint-to-help-fast-track-a-new-rails-applications-4671) to help fast track setting up a new Rails application.
 
 ## Getting Started
-To get started, simply clone this repo into a folder with the name of your application. 
+To get started, choose one of the following options. 
 
 <details>
   <summary>Clone Repo</summary>
@@ -19,6 +19,14 @@ _-or-_
   <summary>Download Repo</summary>
 
   Download and extract [https://github.com/dalezak/rails-blueprint/archive/refs/heads/main.zip](https://github.com/dalezak/rails-blueprint/archive/refs/heads/main.zip) into folder with the name of your application.
+</details>
+
+_-or-_
+
+<details>
+  <summary>Follow Online</summary>
+
+  Instead of cloning or downloading the repo, you can also just follow these [steps online](https://github.com/dalezak/rails-blueprint/blob/main/README.md).
 </details>
 
 Then move through the list below doing any of the sections your application needs. If you already have Rails setup, then skip the `Setup Environment` section, or if you don't want `Soft Deletes` just move past it.
