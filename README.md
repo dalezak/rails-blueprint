@@ -264,6 +264,20 @@ _-or-_
   ```
 </details>
 
+## User Inviteable
+Options for allowing ability to invite users if you're using [Devise](https://github.com/heartcombo/devise).
+
+<details>
+  <summary>Setup Devise Inviteable</summary>
+
+  [devise_invitable](https://github.com/scambra/devise_invitable) is an invitation strategy for Devise.
+
+  [This template](https://railsbytes.com/templates/VZgsJ0) installs the gem, and runs the generator.
+  ```console
+  rails app:template LOCATION='https://railsbytes.com/script/VZgsJ0'
+  ```
+</details>
+
 ## Single Sign On
 Allows users the ability to login to your application through other services like Google.
 
