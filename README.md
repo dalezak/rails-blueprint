@@ -111,6 +111,13 @@ Run `rails new --help` to view all command options.
   ```console
   rails new . -s --git --database=postgresql --css=bootstrap --javascript=esbuild
   ```
+
+  Add the following section to your `package.json`:
+  ```javascript
+  "scripts": { 
+    "build:css": "sass ./app/assets/stylesheets/application.bootstrap.scss ./app/assets/builds/application.css --no-source-map --load-path=node_modules" 
+  }
+  ```
 </details>
 
 _-or-_
@@ -121,6 +128,13 @@ _-or-_
   Creates a new Rails project with Postgres database, Tailwind css and ESbuild javascript.
   ```console
   rails new . -s --git --database=postgresql --css=tailwind --javascript=esbuild
+  ```
+
+  Add the following section to your `package.json`:
+  ```javascript
+  "scripts": { 
+    "build:css": "sass ./app/assets/stylesheets/application.bootstrap.scss ./app/assets/builds/application.css --no-source-map --load-path=node_modules" 
+  }
   ```
 </details>
 
