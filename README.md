@@ -264,7 +264,7 @@ _-or-_
   ```
 </details>
 
-## User Inviteable
+## User Invitations
 Options for allowing ability to invite users if you're using [Devise](https://github.com/heartcombo/devise).
 
 <details>
