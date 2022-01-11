@@ -288,7 +288,7 @@ Allows users the ability to login to your application through other services lik
 
   [Omniauth](https://github.com/omniauth/omniauth) is a flexible authentication system utilizing Rack middleware. 
 
-  [This template](https://railsbytes.com/templates/xkjsK3) adds Omniauth gem, creates sessions, registrations and omniauth controllers
+  [This template](https://railsbytes.com/templates/xkjsK3) adds Omniauth gem, and default omniauth controller
   ```console
   rails app:template LOCATION='https://railsbytes.com/script/xkjsK3'
   ```
@@ -298,8 +298,6 @@ Allows users the ability to login to your application through other services lik
   ```console
   devise_for :users,
     controllers: {
-      sessions: "sessions",
-      registrations: "registrations",
       omniauth_callbacks: "omniauth",
     }
   ```
@@ -307,6 +305,28 @@ Allows users the ability to login to your application through other services lik
   Learning More:
   - [Getting Started](https://github.com/omniauth/omniauth/wiki#getting-started)
   - [GoRails Tutorial](https://gorails.com/episodes/omniauth-twitter-sign-in)
+</details>
+
+<details>
+  <summary>Add Omniauth Google Provider</summary>
+
+  [omniauth-google-oauth2](https://github.com/zquestz/omniauth-google-oauth2) is oauth2 strategy for Google.
+
+  [This template](https://railsbytes.com/templates/V4YsP6) adds the gem and omniauth provider.
+  ```console
+  rails app:template LOCATION='https://railsbytes.com/script/V4YsP6'
+  ```
+</details>
+
+<details>
+  <summary>Add Omniauth Github Provider</summary>
+
+  [omniauth-github](https://github.com/omniauth/omniauth-github) is oauth2 strategy for Github.
+
+  [This template](https://railsbytes.com/templates/Vwysyy) adds the gem and omniauth provider.
+  ```console
+  rails app:template LOCATION='https://railsbytes.com/script/Vwysyy'
+  ```
 </details>
 
 ## Soft Deletes
