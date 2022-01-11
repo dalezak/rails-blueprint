@@ -243,6 +243,8 @@ Setup authorization so you can protect resources based on user roles.
   rails app:template LOCATION='https://railsbytes.com/script/V33sj3'
   ```
 
+  For more a advanced use of CanCanCan, read [Lazy Load CanCanCan Abilities In Rails](https://dev.to/dalezak/lazy-load-cancancan-abilities-in-rails-1h10).
+
   Learning More:
   - [Defining Abilities](https://github.com/CanCanCommunity/cancancan#define-abilities)
   - [Checking Abilities](https://github.com/CanCanCommunity/cancancan#check-abilities)
