@@ -91,3 +91,5 @@ yarn-debug.log*
 *.crt
 *.key
 *.py
+
+*.code-workspace

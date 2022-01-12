@@ -296,10 +296,7 @@ Allows users the ability to login to your application through other services lik
   Post Installation Steps:
   1. Add Omniauth routes to  `config/routes.rb`
   ```console
-  devise_for :users,
-    controllers: {
-      omniauth_callbacks: "omniauth",
-    }
+  devise_for :users, controllers: { omniauth_callbacks: "omniauth" }
   ```
 
   Learning More:
@@ -312,7 +309,7 @@ Allows users the ability to login to your application through other services lik
 
   [omniauth-google-oauth2](https://github.com/zquestz/omniauth-google-oauth2) is oauth2 strategy for Google.
 
-  [This template](https://railsbytes.com/templates/V4YsP6) adds the gem and omniauth provider.
+  [This template](https://railsbytes.com/templates/V4YsP6) adds the gem, omniauth provider, runs migration on users.
   ```console
   rails app:template LOCATION='https://railsbytes.com/script/V4YsP6'
   ```
@@ -323,7 +320,7 @@ Allows users the ability to login to your application through other services lik
 
   [omniauth-github](https://github.com/omniauth/omniauth-github) is oauth2 strategy for Github.
 
-  [This template](https://railsbytes.com/templates/Vwysyy) adds the gem and omniauth provider.
+  [This template](https://railsbytes.com/templates/Vwysyy) adds the gem, omniauth provider, runs migration on users.
   ```console
   rails app:template LOCATION='https://railsbytes.com/script/Vwysyy'
   ```
