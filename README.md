@@ -288,13 +288,13 @@ Allows users the ability to login to your application through other services lik
 
   [Omniauth](https://github.com/omniauth/omniauth) is a flexible authentication system utilizing Rack middleware. 
 
-  [This template](https://railsbytes.com/templates/xkjsK3) adds Omniauth gem, and default omniauth controller
+  [This template](https://railsbytes.com/templates/xkjsK3) adds Omniauth gem, adds OmniauthController, adds Identity model, runs migrations
   ```console
   rails app:template LOCATION='https://railsbytes.com/script/xkjsK3'
   ```
 
   Post Installation Steps:
-  1. Add Omniauth routes to  `config/routes.rb`
+  1. Add or update routes in  `config/routes.rb` to include `omniauth_callbacks`
   ```console
   devise_for :users, controllers: { omniauth_callbacks: "omniauth" }
   ```
@@ -323,6 +323,28 @@ Allows users the ability to login to your application through other services lik
   [This template](https://railsbytes.com/templates/Vwysyy) adds the gem, omniauth provider, runs migration on users.
   ```console
   rails app:template LOCATION='https://railsbytes.com/script/Vwysyy'
+  ```
+</details>
+
+<details>
+  <summary>Add Omniauth Twitter Provider</summary>
+
+  [omniauth-twitter](https://github.com/arunagw/omniauth-twitter) is oauth2 strategy for Twitter.
+
+  [This template](https://railsbytes.com/templates/XE5sQy) adds the gem, omniauth provider, runs migration on users.
+  ```console
+  rails app:template LOCATION='https://railsbytes.com/script/XE5sQy'
+  ```
+</details>
+
+<details>
+  <summary>Add Omniauth Facebook Provider</summary>
+
+  [omniauth-facebook](https://github.com/simi/omniauth-facebook) is oauth2 strategy for Facebook.
+
+  [This template](https://railsbytes.com/templates/zyvsjm) adds the gem, omniauth provider, runs migration on users.
+  ```console
+  rails app:template LOCATION='https://railsbytes.com/script/zyvsjm'
   ```
 </details>
 
