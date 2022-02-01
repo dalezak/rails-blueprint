@@ -500,6 +500,17 @@ _-or-_
   ```
 </details>
 
+<details>
+  <summary>Bootstrap Scaffold Templates</summary>
+
+  Add scaffold templates flavored for Bootstrap 5.
+
+  [This template](https://railsbytes.com/templates/XbBs3y) adds templates.
+  ```console
+  rails app:template LOCATION='https://railsbytes.com/script/XbBs3y'
+  ```
+</details>
+
 ## Project Configuration
 Some handy project configurations to make your life simpler.
 
