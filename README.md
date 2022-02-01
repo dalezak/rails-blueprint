@@ -469,6 +469,17 @@ _-or-_
 Some handy project configurations to make your life simpler.
 
 <details>
+  <summary>Open Browser After Launch</summary>
+
+  This snippet will automatically open your Rails app in the browser after launch.
+
+  [This template](https://railsbytes.com/templates/zl0s3A) adds snippet to `config.ru`.
+  ```console
+  rails app:template LOCATION="https://railsbytes.com/script/zl0s3A"
+  ```
+</details>
+
+<details>
   <summary>Setup Bullet</summary>
 
   [Bullet](https://github.com/flyerhzm/bullet) helps kill N+1 queries and unused eager loading.
