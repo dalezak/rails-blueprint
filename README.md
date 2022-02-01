@@ -479,13 +479,24 @@ _-or-_
 </details>
 
 <details>
-  <summary>Bootstrap Devise Forms</summary>
+  <summary>Bootstrap Devise Views</summary>
 
-  Add Bootstrap 5 login and signup forms to your app.
+  Add [devise-bootstrap5](https://github.com/kroger/devise-bootstrap5) to get Bootstrap views for Devise.
 
   [This template](https://railsbytes.com/templates/VeKsLE) adds devise-bootstrap5 gem.
   ```console
   rails app:template LOCATION='https://railsbytes.com/script/VeKsLE'
+  ```
+</details>
+
+<details>
+  <summary>Bootstrap Forms</summary>
+
+  Add [bootstrap_form](https://github.com/bootstrap-ruby/bootstrap_form) so you can have Bootstrap forms.
+
+  [This template](https://railsbytes.com/templates/VD7sLP) adds bootstrap_form gem.
+  ```console
+  rails app:template LOCATION='https://railsbytes.com/script/VD7sLP'
   ```
 </details>
 
