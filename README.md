@@ -470,11 +470,22 @@ _-or-_
 <details>
   <summary>Bootstrap Navbar & Layout</summary>
 
-  Add a Bootstrap 5 navbar and page layout, plus bunch of partials and helpers.
+  Add Bootstrap 5 navbar and page layout, plus bunch of partials and helpers.
 
   [This template](https://railsbytes.com/templates/zmnsEn) updates the layout with navbar.
   ```console
   rails app:template LOCATION='https://railsbytes.com/script/zmnsEn'
+  ```
+</details>
+
+<details>
+  <summary>Bootstrap Devise Forms</summary>
+
+  Add Bootstrap 5 login and signup forms to your app.
+
+  [This template](https://railsbytes.com/templates/VeKsLE) adds devise-bootstrap5 gem.
+  ```console
+  rails app:template LOCATION='https://railsbytes.com/script/VeKsLE'
   ```
 </details>
 
