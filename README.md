@@ -537,7 +537,7 @@ Some handy project configurations to make your life simpler.
 <details>
   <summary>Access Rails Credentials Using ENV</summary>
 
-  This [strategy](https://dev.to/dalezak/rails-environment-variables-using-credentials-mh7) adds a config initializer which lets you access your `Rails.application.credentials` using `ENV`, so your environment variables from your local environment and Heroku will both be consistent.
+  This [strategy](https://dev.to/dalezak/rails-environment-variables-using-credentials-mh7) adds a config initializer which lets you access your `Rails.application.credentials` using `ENV`.
 
   [This template](https://railsbytes.com/templates/Vp7s90) adds a config initializer.
   ```console
