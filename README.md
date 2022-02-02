@@ -592,7 +592,7 @@ Some handy project configurations to make your life simpler.
 </details>
 
 <details>
-  <summary>Improve Seeds Folder</summary>
+  <summary>Improved Seeds Folder Structure</summary>
 
   Organize your seeds files into environment folders and execute them in alphanumeric order.
 
