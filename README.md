@@ -526,6 +526,17 @@ Some handy project configurations to make your life simpler.
 </details>
 
 <details>
+  <summary>Rake Task db:recreate</summary>
+
+  This rake task will drop, create, migrate and seed the database, plus clears uploads and storage.
+
+  [This template](https://railsbytes.com/templates/VQLsoK) adds `db:recreate` rake task.
+  ```console
+  rails app:template LOCATION="https://railsbytes.com/script/VQLsoK"
+  ```
+</details>
+
+<details>
   <summary>Setup Bullet</summary>
 
   [Bullet](https://github.com/flyerhzm/bullet) helps kill N+1 queries and unused eager loading.
