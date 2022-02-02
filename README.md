@@ -548,6 +548,17 @@ Some handy project configurations to make your life simpler.
 </details>
 
 <details>
+  <summary>Setup Faker</summary>
+
+  [Faker](https://github.com/faker-ruby/faker) is a library for generating fake data such as names, addresses, and phone numbers.
+
+  [This template](https://railsbytes.com/templates/Xg8sWq) adds the Faker gem.
+  ```console
+  rails app:template LOCATION="https://railsbytes.com/script/Xg8sWq"
+  ```
+</details>
+
+<details>
   <summary>Setup Figaro</summary>
 
   [Figaro](https://github.com/laserlemon/figaro) is simple Heroku-friendly configuration using ENV and a single YAML file.
