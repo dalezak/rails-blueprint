@@ -511,6 +511,17 @@ _-or-_
   ```
 </details>
 
+<details>
+  <summary>Bootstrap Error Pages</summary>
+
+  Generate Bootstrap friendly error pages.
+
+  [This template](https://railsbytes.com/templates/VB0sQj) adds views.
+  ```console
+  rails app:template LOCATION='https://railsbytes.com/script/VB0sQj'
+  ```
+</details>
+
 ## Project Configuration
 Some handy project configurations to make your life simpler.
 
