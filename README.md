@@ -386,6 +386,20 @@ _-or-_
   - [Default Scopes](https://github.com/jhawthorn/discard#default-scope)
 </details>
 
+## Request Throttling
+Throttle excessive requests and ban bad actors
+
+<details>
+  <summary>Add Rack-Attack</summary>
+
+  [rack-attack](https://github.com/rack/rack-attack) is Rack middleware for blocking and throttling requests.
+
+  [This template](https://railsbytes.com/templates/xkjs9G) adds the gem and default initializer.
+  ```console
+  rails app:template LOCATION='https://railsbytes.com/script/xkjs9G'
+  ```
+</details>
+
 ## Image Uploads
 Add file upload functionality to a cloud storage services.
 
