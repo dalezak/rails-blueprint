@@ -114,7 +114,8 @@ Run `rails new --help` to view all command options.
 
   Add the following section to your `package.json`:
   ```javascript
-  "scripts": { 
+  "scripts": {
+    "build": "esbuild app/javascript/*.* --bundle --sourcemap --outdir=app/assets/builds",
     "build:css": "sass ./app/assets/stylesheets/application.bootstrap.scss ./app/assets/builds/application.css --no-source-map --load-path=node_modules" 
   }
   ```
