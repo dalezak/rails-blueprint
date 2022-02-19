@@ -552,6 +552,17 @@ Some handy project configurations to make your life simpler.
 </details>
 
 <details>
+  <summary>Database Migrate And Schema Dump On Heroku Deploy</summary>
+
+  Automatically migrate database and schema dump upon deploying to Heroku.
+
+  [This template](https://railsbytes.com/templates/zr4spr) adds rake task.
+  ```console
+  rails app:template LOCATION="https://railsbytes.com/script/zr4spr"
+  ```
+</details>
+
+<details>
   <summary>Rake Task db:recreate</summary>
 
   This rake task will drop, create, migrate and seed the database, plus clears uploads and storage.
