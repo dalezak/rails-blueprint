@@ -1,5 +1,5 @@
 # Rails Blueprint
-A [starter blueprint](https://dev.to/dalezak/a-starter-blueprint-to-help-fast-track-a-new-rails-applications-4671) to help fast track setting up a new Rails application.
+A [starter blueprint](https://dev.to/dalezak/a-starter-blueprint-to-help-fast-track-a-new-rails-applications-4671) to help fast track setting up a new Rails application. Simply go through the list below choosing the features and options you'd like to enable in your project, expand that section then run the template to install that functionality. It's as easy as that!
 
 ## Getting Started
 To get started, choose one of the following options. 
